@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding-right: 40px;
+}
+
+.marker {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.marker img {
+  width: 30px;
+  height: 30px;
+}
+
+.mainText {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.mainPopup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(235, 165, 35);
+  border-radius: 15px;
+}
+
+.infoText {
+  font-size: 18px;
+}
