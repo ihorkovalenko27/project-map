@@ -42,7 +42,6 @@ const AddForm = ({ onSubmit }) => {
               name="name"
               value={name}
               onChange={handleInputChange}
-              title="Имя может состоять только из букв, апострофа, тире и пробелов. Например Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan и т. п."
               required
             />
           </label>
@@ -54,7 +53,6 @@ const AddForm = ({ onSubmit }) => {
               name="description"
               value={description}
               onChange={handleInputChange}
-              title="Номер телефона должен состоять цифр и может содержать пробелы, тире, круглые скобки и может начинаться с +"
               required
             />
           </label>
